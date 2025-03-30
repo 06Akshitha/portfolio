@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshitha Thota - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #74b9ff, #0984e3);
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    section {
+      padding: 3rem;
+      background-color: rgba(0, 0, 0, 0.4);
+      margin: 20px;
+      border-radius: 12px;
+    }
+
+    h2 {
+      color: #74b9ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    a:hover {
+      color: #74b9ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Akshitha Thota</h1>
+    <p>Software Engineering Student | Python Developer | Cloud Enthusiast</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Akshitha Thota, a software engineering student passionate about Python programming, cloud computing, and AI-powered solutions. I have hands-on experience with AWS, Django, and REST API development.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, Java, SQL, JavaScript</li>
+      <li>Django, REST APIs, Angular</li>
+      <li>AWS (Elastic Beanstalk, S3, AWS Batch)</li>
+      <li>Docker, Git, SDLC</li>
+      <li>Data Analysis (Pandas, SQL, Tableau)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Employee Burnout Analysis & Prediction</strong> - Developed a machine learning model to predict burnout using Python and Pandas.</li>
+      <li><strong>Automation E-Government Services with AI</strong> - Created an AI-powered automation system using Watson AI Toolkit and AWS.</li>
+      <li><strong>Movie Recommendation System</strong> - Built a recommendation engine using collaborative filtering with 95% user satisfaction.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:akshithathota55@gmail.com">akshithathota55@gmail.com</a></p>
+    <p>LinkedIn: <a href="http://linkedin.com/in/akshitha-thota-329804291">LinkedIn Profile</a></p>
+    <p>GitHub: <a href="https://github.com/06Akshitha/06Akshitha.git">GitHub Profile</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Akshitha Thota. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
